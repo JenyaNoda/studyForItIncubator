@@ -1,0 +1,13 @@
+.header {
+    font-size: 200%;
+    padding: 5px;
+    margin: 5px;
+    margin-bottom: 10px;
+}
+
+#container-app {
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+}
