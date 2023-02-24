@@ -240,14 +240,208 @@
 // const calc = tip >= 50  &&  300 >= tip ? "15 prec": "is 20 prec"
 // console.log (`The bill was ${bill} and tip was ${tip} and the total value is ${tip + bill}`)
 
-const calcTip = function (bill) {
-return bill >= 50 && bill <= 300 ? bill * 0.15 : 
-bill * 0.2
-}
-const bills = [125, 555, 44];
+// const calcTip = function (bill) {
+// return bill >= 50 && bill <= 300 ? bill * 0.15 : 
+// bill * 0.2
+// }
+// const bills = [125, 555, 44];
 
-const tip = [calcTip(bills[0]), calcTip(bills[1]), calcTip(bills[2])] ;
-console.log(bills, tip) 
+// const tip = [calcTip(bills[0]), calcTip(bills[1]), calcTip(bills[2])] ;
+// console.log(bills, tip) 
 
-const total = [bills[0] + tip [0], bills[1] + tip [1], bills[2] + tip [2]];
-console.log(total);
+// const total = [bills[0] + tip [0], bills[1] + tip [1], bills[2] + tip [2]];
+// console.log(total);
+
+// const jonasArray = [
+//    'Jonas',
+//    'Jenia',
+//    'Studied',
+//    2037 - 1997, 
+//    ['Anna','Julia','Dasha',]
+
+
+// const jonas = {
+// firstName: 'Jonas',
+// lastName: ' sTENHMAN',
+// job: 'teacher', 
+
+// };
+// console.log(jonas['firstName'])
+
+// const nameKey = 'Name';
+// console.log(jonas['first' + nameKey])
+// const interestedIn =  prompt('What do u  want to know about Jonas?  Choose between firstName, lastName, job')
+
+// if(jonas[interestedIn]){
+//    console.log(jonas[interestedIn]); 
+
+// } else {
+//    console.log('Wrond request')
+// } 
+// jonas.location = 'Portugal';
+// jonas['Steam'] = '@acrossfiter';
+// console.log(jonas)
+
+//  const Hes = {
+//    friends:['Kate','Julia','Dasha'],
+//    bestFriend: 'Michael'
+//  }
+//    console.log(Hes.bestFriend);
+
+   // const jenia = {
+   //    firstName: 'Jenia' ,
+   //    lastName: 'Noda' , 
+   //    age: '25 years old ', 
+   //    job: 'recepcionist at a 4* Hotel' , 
+   //    hobbys: 'videogames',
+   //    favouriteFriend: 'Ramon',
+   //    friends: ['Juanan', 'Julia', 'Helga', 'Kalu'],
+      
+   // }; 
+   // const meJenia = prompt('Tell me about yourself You can see my firstName, lastName, job, hobbys, friends, favouriteFriend');
+   //    if (jenia[meJenia]) {
+   //    console.log(jenia[meJenia]);
+   // } else {
+   //    console.log ("Sorry ,  there's no any information about")
+   // }
+//    const jonas = {
+// firstName: 'Jonas',
+// lastName: ' sTENHMAN',
+// birthYear: 1991,
+// job: 'teacher', 
+// friends:['Ramon','Helga', 'julia'],
+// hasDriverLicense: false,
+
+// calcAge: function(birthYear) {
+//    return 2037 - birthYear;
+//    }
+// calcAge: function() {
+//    // console.log(this);
+//    return 2037 - this.birthYear;
+//    }
+// }; 
+// const calcAge = function (birthYear) {
+   //    return 2037 - birthYear;
+   // } 
+   // console.log(jonas['calcAge'](1991));
+   
+
+// calcAge: function() {
+//    this.age = 2037 - this.birthYear
+//    return this.age;
+   
+// },
+//    getSummary:  function() {
+//       return `${this.firstName} is a ${this.calcAge()} year old ${this.job}, and he has  ${this.hasDriverLicense ? 'a': 'no'} driver's license`
+//     }
+
+//    }
+//  console.log(jonas.getSummary());
+   // console.log (jonas.calcAge());
+   // console.log (jonas.age);
+   // console.log (jonas.age);
+
+// calcAge: function(birthYear) {
+//    return 2037 - birthYear;
+//    }
+//   calcAge: function() {
+//    // console.log(this);
+//    return 2037 - this.birthYear;
+//    }
+   
+//   nst calcAge = function (birthYear) {
+//       return 2037 - birthYear;
+//    } 
+//    console.log(jonas['calcAge'](1991));
+  
+  
+//   calcAge: function() {
+//    this.age = 2037 - this.birthYear
+//    return this.age;
+  
+
+//  const markMiller = {
+//    fullName: 'Mark Miller',
+//    mass: 78,
+//    height: 1.69,
+//    calcBmi: function() {
+//       return this.mass / this.height **2
+//    }
+
+//  };
+//  console.log(markMiller.calcBmi(91)); 
+ 
+// // John 
+// const johnSmith = {
+//    firstName: 'John',
+//    mass: 92,
+//    height: 1.95,
+//    calcBmi: function () {
+//        return this.mass / this.height **2
+//       }
+// };
+// console.log(johnSmith.calcBmi(91)); 
+// console.log(`John Smith BMI is ${johnSmith.calcBmi()} is lower then Mark Miller's BMI ${markMiller.calcBmi()}`)
+
+// const mark = {
+//    fullName: 'Mark Miller',
+//    mass: 78,
+//    height: 1.69,
+//    calcBmi: function() {
+//       this.bmi = this.mass / this.height **2
+//       return this.calcBmi;
+//    }
+// }
+// const john = {
+//    fullName: 'Mark Miller',
+//    mass: 92,
+//    height: 1.95,
+//    calcBmi: function() {
+//       this.bmi = this.mass / this.height **2
+//       return this.calcBmi;
+//    }
+// }
+// mark.calcBmi();
+// john.calcBmi()
+// console.log(mark.bmi, john.bmi)
+//  console.log('Lifting weights  repetition 1');
+
+// const jonas = [
+//    'Jonas',
+//    'Schmedet',
+//    2037 - 1991,
+//    'teacher', 
+//    ['Michael', 'julia'],
+//    true
+// ];
+// const types = [];
+
+// for (let i = 0; i < jonas.length ;i++) {
+//   // Reading from jonas array
+//    console.log(jonas[i], typeof[i])
+
+//    // Filling types array 
+//    types [i] = typeof jonas [i];
+// types.push(typeof jonas[i]);
+// }
+// console.log(types);
+
+// const years = [1191, 2212, 3991, 2212];
+// const ages = []
+// for(let i = 0; i < years.length;i++) {
+//   ages.push(2037) - years[i]
+// }
+// console.log(ages)
+// // continue and breat statement 
+// console.log('----- Only String----')
+// for (let i = 0; i < jonas.length ;i++) {
+//  if(typeof jonas[i] !=='string') continue;
+ 
+//    console.log(jonas[i], typeof[i])
+// } 
+// console.log('----- BREAK WITH NUMBER----')
+// for (let i = 0; i < jonas.length ;i++) {
+//  if(typeof jonas[i] ==='number') break;
+ 
+//    console.log(jonas[i], typeof[i])
+// } 
