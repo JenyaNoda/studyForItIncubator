@@ -64,4 +64,22 @@
 //     else if (14 >= age) {
 //         console.log('Price 121220 backs')
 //     } else console.log ('For you its 10 backs senior')
- console.log(Math.floor(Math.random() * 10)) 
+//  console.log(Math.floor(Math.random() * 10)) 
+// const age = 90;
+// if (age < 5) {
+//     console.log('Free')
+// } else if(age < 10) {
+//     console.log('10$')
+// } else if (age < 65) {
+//     console.log('20$')
+// } else {
+//     console.log('Free')
+// }
+// const firstName = prompt('Name')
+// if(!firstName){
+// firstName = prompt('Enter you firstname please')
+// }
+// const age = 45
+// if(!(age >= 0 && age < 5 || age >= 65)) {
+//     console.log('Free')
+// }
