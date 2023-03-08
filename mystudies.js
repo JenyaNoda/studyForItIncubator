@@ -354,3 +354,41 @@ lastElement([])
 // lastElement([3,5,7])
 // lastElement([1]) 
 // lastElement([]) 
+
+// function lastElement (arr) {
+//     if ( arr.lenght > 0) {
+//         return arr
+//     } 
+
+//     }
+//     lastElement([3,5,7])
+//     lastElement([1]) 
+//     lastElement([])
+    
+// function capitalize (arg) {
+//     let big = 'Eggplant';
+//     if (arg  === 'eggplant') {
+//         console.log(big)
+//    return big
+// } else return arg
+// }
+// capitalize('eggplant') 
+// capitalize('pamplemousse') 
+// capitalize('squid')
+// function capitalize (arg) {
+//     return arg.charAt(0).toUpperCase() + arg.slice(1);
+// }
+// capitalize('eggplant') 
+// capitalize('pamplemousse') 
+// capitalize('squid')
+function sumArray (arr) {
+    let total = 0;
+    for (let i = 0; i < arr.length; i++) {
+      total += arr[i]  
+      console.log(total)
+        return total
+    }
+}
+sumArray([1,2,3]) 
+sumArray([2,2,2,2])
+sumArray([50,50,1])
