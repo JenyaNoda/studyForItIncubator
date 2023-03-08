@@ -224,29 +224,29 @@
 //     console.log(`${person} scored ${testScores[person]}`)
 // } 
 
-let input = prompt("what you like to do?") 
-const todos = ['collect eggs','collect chicken']
-while (input !== "quit" && input !== 'q') {
-    if (input === 'list'){
-    console.log('*****')
-    for (i = 0; i < todos.length;i++){
-        console.log(`${i}:${todos[i]}`)
-    }
-    console.log('****')
-} else if (input === 'new'){
-    const newTodo = prompt ('Ok what is the new todo')
-    todos.push(newTodo)
-    console.log(`${newTodo}added to the list`) 
-} else if (input === 'delete'){
-    let indexStr = parseInt(prompt('Ok what we are going to delete'))
-    if(!Number.isNaN(index)){
-const deleted = todos.splice(deleteTodo,1)
-console.log(`okay deleted ${deleted}`) 
-    } else { console.log('Unknow index')
+// let input = prompt("what you like to do?") 
+// const todos = ['collect eggs','collect chicken']
+// while (input !== "quit" && input !== 'q') {
+//     if (input === 'list'){
+//     console.log('*****')
+//     for (i = 0; i < todos.length;i++){
+//         console.log(`${i}:${todos[i]}`)
+//     }
+//     console.log('****')
+// } else if (input === 'new'){
+//     const newTodo = prompt ('Ok what is the new todo')
+//     todos.push(newTodo)
+//     console.log(`${newTodo}added to the list`) 
+// } else if (input === 'delete'){
+//     let indexStr = parseInt(prompt('Ok what we are going to delete'))
+//     if(!Number.isNaN(index)){
+// const deleted = todos.splice(deleteTodo,1)
+// console.log(`okay deleted ${deleted}`) 
+//     } else { console.log('Unknow index')
         
-} 
-input = prompt("what you like to do?") 
-}
+// } 
+// input = prompt("what you like to do?") 
+// }
 
 
 
@@ -281,3 +281,76 @@ input = prompt("what you like to do?")
 //     console.log('okay u win')
 //     console.log(`You got it it took you ${attemps} guesses`)
 // }
+
+// 
+// function sing (arg){
+//     console.log("I am a singer".toUpperCase())
+// } 
+// sing()
+// function rant (message) {
+//     message = ("I hate beets".toUpperCase())
+//     console.log(message)
+//     console.log(message)
+//     console.log(message)
+//    }
+//    rant() 
+// function gree(firstName, lastName){
+//     console.log(`hey there, ${firstName} ${lastName[0]}`)
+// }
+// gree('Narnia', 'dwqdd')
+// function repeat stuff
+// function repeat(rep, fun) {
+//     let result = ''
+// for (let i = 0; i < fun;i++) {
+//     result+=rep
+    
+// }
+// console.log(result)   
+// }
+// function isSnakeEyes (num1,num2) {
+//     if (num1 && num2 === 1){
+//         console.log('Snake Eyes!')
+//     } else if (num1 === 1 && num2 === 5) {
+//                 console.log('Not Snake Eyes!')
+//      } else { console.log('Not Snake Eyes!')
+//         }
+        
+//     }
+//     isSnakeEyes(1,5)
+// function bringit (num1,num2) {
+//     if (typeof num1 !== 'number' || typeof num2 !== 'number') {
+//         return false 
+//     }
+// 
+// function multiply (num1,num2) {
+//    let result = num1 * num2
+//    console.log(result) 
+//    return result;
+// }
+// multiply(2,3)
+// multiply(9,9)
+// multiply(5,4)
+
+function lastElement (arr) {
+let rtr = arr.slice(-1)
+return rtr || null
+    
+}
+lastElement([3,5,7])
+lastElement([1]) 
+lastElement([])
+
+// function lastElement (arr) {
+//     if (arr.length === 0) {
+//         console.log(arr)
+//         return null;
+    
+//     } else  (arr.slice(-1))
+// console.log(arr)
+//  return arr
+ 
+// }
+
+// lastElement([3,5,7])
+// lastElement([1]) 
+// lastElement([]) 
