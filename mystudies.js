@@ -381,14 +381,106 @@ lastElement([])
 // capitalize('eggplant') 
 // capitalize('pamplemousse') 
 // capitalize('squid')
-function sumArray (arr) {
-    let total = 0;
-    for (let i = 0; i < arr.length; i++) {
-      total += arr[i]  
-      console.log(total)
-        return total
+// function sumArray (arr) {
+//     let total = 0;
+//     for (let i = 0; i < arr.length; i++) {
+//       total += arr[i]  
+//       console.log(total)
+//         return total
+//     }
+// }
+// sumArray([1,2,3]) 
+// sumArray([2,2,2,2])
+// sumArray([50,50,1])
+
+// const greet = function () {
+//     console.log("HI")
+// }
+// function callTwice (func){
+//     func();
+//     func();
+// }
+// function callTenTimes (f){
+//     for (let i = 0; i < 10; i++) {
+//         f()
+//     }
+// }
+//     function rollDies() {   
+//         const roll = Math.floor(Math.random() * 6) + 1
+        
+//         console.log(roll)
+//     }
+//     callTenTimes(rollDies);
+
+// function makeMysteryFunction () {
+//     const rand = Math.random();
+//     if (rand > 0.5) {
+//         return function() {
+//             console.log('u win hehe')
+//         }
+//     } else  {
+//         return function () {
+//             alert ('eergeggrergg')
+//         }
+//     }
+// }
+// function numbetweeen (num) {
+//      return num >= 50 && num <= 100 
+// }
+// function numbetweeen2 (num) {
+//     return num >= 1 && num <= 10
+
+// }
+// function  makeBetweenFunc (min, max) {
+//     return function (num) {
+//         return num >= min && num <= max ;
+//     }
+   
+// }
+// const tot = function (num) {
+//     return num >= min && num <= max ;
+// }
+// const math = { 
+//     PI: 3.14159,
+//     square: function (num) {
+//         return num * num ;
+//     },
+//     cubre: function (num) {
+//         return num ** 3;
+//     }
+// }
+
+// const cat = {
+//     name: 'Blue some',
+//     color: 'grey', 
+//     voice() {
+//         console.log(`${this.name} says BLAAAAAAAAACKYYYY`)
+// }
+// }
+//  const meow = cat.voice;
+
+// const planets = {
+//     planet1: 'Mercury',
+//     planet2: 'Venus',
+//     planet3: 'Eath',
+//     planet4: 'Mars',
+//     planet5: 'Jupiter',
+//     plan () {
+//         console.log(`im am going to ${this.planet3} any time soon`)
+//     }
+
+// }
+const hen = {
+    name: 'Helen',
+    eggCount: 0,
+    layAnEgg (){
+        for (let i = 0; i < eggCount; i++){
+            return `${this.eggCount[i]} "Eggs "`
+        }
     }
 }
-sumArray([1,2,3]) 
-sumArray([2,2,2,2])
-sumArray([50,50,1])
+hen.name 
+hen.eggCount 
+hen.layAnEgg() 
+hen.layAnEgg() 
+hen.eggCount 
