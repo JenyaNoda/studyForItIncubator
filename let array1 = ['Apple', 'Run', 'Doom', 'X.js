@@ -1,18 +1,7 @@
-let array1 = ['Apple', 'Run', 'Doom', 'X', 'Z'];
+let array1 = [0, 1, 0, 0, 1];
 
 function x(array1) {
-    let out = "";
-
-    for (let i = 0; i < array1.length; i++) {
-        if (i == array1.length - 1) {
-            out += '"' + array1[i] + '"';
-        }
-        else {
-            out += "\"" + array1[i] + '", ';
-        }
-    }
-
-    return '[' + out + ']';
+    return '[' + array1.join(', ') + ']';
 }
 
 console.log(x(array1));

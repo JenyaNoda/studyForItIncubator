@@ -331,14 +331,14 @@
 // multiply(9,9)
 // multiply(5,4)
 
-function lastElement (arr) {
-let rtr = arr.slice(-1)
-return rtr || null
+// function lastElement (arr) {
+// let rtr = arr.slice(-1)
+// return rtr || null
     
-}
-lastElement([3,5,7])
-lastElement([1]) 
-lastElement([])
+// }
+// lastElement([3,5,7])
+// lastElement([1]) 
+// lastElement([])
 
 // function lastElement (arr) {
 //     if (arr.length === 0) {
@@ -470,17 +470,204 @@ lastElement([])
 //     }
 
 // }
-const hen = {
-    name: 'Helen',
-    eggCount: 0,
-    layAnEgg (){
-        for (let i = 0; i < eggCount; i++){
-            return `${this.eggCount[i]} "Eggs "`
-        }
-    }
-}
-hen.name 
-hen.eggCount 
-hen.layAnEgg() 
-hen.layAnEgg() 
-hen.eggCount 
+// const hen = {
+//     name: 'Helen',
+//     eggCount: 0,
+//     layAnEgg (){
+//         return `${this.eggCount + 1} "Eggs "`
+//         }
+//     }
+
+//     hen.name 
+// hen.eggCount 
+// hen.layAnEgg() 
+// hen.layAnEgg() 
+// hen.eggCount 
+// const hen = {
+//     name: 'Helen',
+//     eggCount: 0,
+//     layAnEgg (){
+//         if (this.eggCount === 0){
+//         return this.eggCount++ && "EGG"
+//         }
+//     }
+// }
+// hen.name 
+// hen.eggCount 
+// hen.layAnEgg() 
+// hen.layAnEgg() 
+// hen.eggCount 
+
+///////////////
+
+        // function  print (element) {
+        //     console.log(element)
+        // }
+// print(numbers[1]);
+// print(numbers[3])
+// arry.forEach(function(el) {
+//     console.log(el)
+
+// }) 
+// arry.forEach(function(el) {
+//     if (el % 2) {
+//         console.log(el)
+//     }
+// })
+// 
+// // movies.forEach(function(movie){
+// //     console.log(`${movie.title} - ${movie.score}/100 `)
+// // })
+// const titles = movies.map(function(movie){
+//     return movie.title
+// })
+
+// const arry = [1,2,3,4,5,6,6,7,8,8,8,8,9,9,0];
+// const numbers = arry.map(function(arr){
+//     return arr * 2;
+// })
+
+
+
+    
+// const Dragonfly = [
+// {
+//     planet: 'Mercury',
+//     distance: 150
+// },
+//  {
+//     planet: "Venus",
+//     distance: 130
+//  }  
+// ]
+// const space = Dragonfly.map(function(dark){
+//     return dark.planet
+// })
+// const fullNames = [{first: 'Albus', last: 'Dumbledore'}, {first: 'Harry', last: 'Potter'}, {first: 'Hermione', last: 'Granger'}, {first: 'Ron', last: 'Weasley'}, {first: 'Rubeus', last: 'Hagrid'}, {first: 'Minerva', last: 'McGonagall'}, {first: 'Severus', last: 'Snape'}];
+// const add = (x,y) => {
+//     return x * y;
+// }
+// add()
+
+// let square = (x) => {
+//     return x * x
+// }
+// square()
+
+// const mas = [{
+//     meta: "djad",
+//     valu: 321
+// }, 
+// {
+//     meta: "dadsa",
+//     valu: 54
+// }
+// ]
+// let tyu = mas.map(function(x){
+//     return x.meta
+// })
+
+// const ketchup = (x,y) => {
+//     return x + y;
+// }
+// const greet = (tin) => {
+//     hey = 'Hey ' + tin + '!';
+//     return hey
+// };
+// greet("Hagrid")  ;
+// greet("Luna");
+// const movies = [
+//         {
+//         title: "Spidae",
+//         score: 92
+//     },
+//     {
+//         title: 'The Lust of Us',
+//         score: 100
+    
+//     },
+//     {   title: 'Sky rocket',
+//         score: 93
+//     }
+//     ]
+//     // const newMovies = movies.map(function (movie){
+//     //     return `${movie.title} - ${movie.score / 10}`
+
+//     // })
+//     const newMovies = movies.map(movie  => (
+//         `${movie.title} - ${movie.score / 10}`
+//     ))
+// setTimeout(() => {
+//     console.log('Hellllllooooooo')
+// }, 3000)
+// const id = setInterval(() => {
+// console.log(Math.random())
+// }, 1500)
+// const numbers = [1,2,3,4,5,6,7,8,9,10,11,12,13];
+// numbers.filter(n =>{
+//     return n < 8
+// })
+// const bestAwards = [
+//     {
+//     GOTY: "The Lust of Us",
+//     year: 2013,
+//     mark: 10
+// },
+//   {  
+//     GOTY: "Fallout 4",
+//     year: 2016,
+//     mark: 10
+// },
+// {   GOTY: "CyberPunk 2077",
+//     year: 2020,
+//     mark: 8
+// },
+// {   GOTY: "weghff",
+//     year: 2020,
+//     mark: 8
+// },
+// {   GOTY: "ewrew",
+//     year: 2020,
+//     mark: 8
+// },
+// {   GOTY: "The Elden Ring",
+//     year: 2020,
+//     mark: 9.2
+// },
+// {    GOTY: "Black ops 3",
+//      year: 2016,
+//      mark: 9
+// }
+// ]
+
+// const goodGames = bestAwards.filter(m => m.mark >= 8.5) 
+// const goodtitles = goodGames.map(m => m.GOTY)
+// const badGames = bestAwards.filter(m => m.mark <= 8) 
+
+// const recentgames = bestAwards.filter (m => m.year >= 2020 )
+
+// bestAwards.filter(m => m.year >= 2010 && m.year < 2017).map(m => m.GOTY)
+
+// const person = {
+//     firstName: 'Call of Duty:', 
+//     lastName: 'Modern Warfare',
+//     fullName: function (){
+//         return `${this.firstName} ${this.lastName}`
+//     },
+//     shoutName: function () {
+//         setTimeout(() => {
+//             console.log(this.fullName())
+//         },3000)
+//     }
+// }
+// function rollDie(num = 6) {
+//     return Math.floor(Math.random() * num) + 1
+// }
+// function greet (msg,person = 'Hey There') {
+//     return `${msg}, ${person}`
+// }
+// const cats = ['Ben','Bob','tripl'];
+// const dogs = ['bILL', 'Gerrard', 'Anonella']
+// const allPets = [...cats,...dogs]
+const feline = {legs: 4,family: 'Felidae'}
+const canine = {ifFurry: true,family: 'Caninae'}
